@@ -10,4 +10,4 @@ Design and analysis of a CMOS inverter using the GPDK 90nm technology in Cadence
            * [Generated post-layout netlist](#generated-post-layout-netlist)
            * [Post-layout DC Analysis](#post-layout-dc-analysis)
            * [Post-layout Transient Analysis](#post-layout-transient-analysis)
-        * [Layout vs Schematic report](#layout-vs-schematic-report)
+       * [Layout vs Schematic report](#layout-vs-schematic-report)
