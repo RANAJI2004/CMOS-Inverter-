@@ -2,7 +2,7 @@
 Design and analysis of a CMOS inverter using the GPDK 90nm technology in Cadence Virtuoso. Includes transient & DC simulations.
 
   * [CMOS Inverter](#cmos-inverter)
-       * [Creating cmos inverter schematic](#creating-cmos-inverter-schematic)
+       * [Creating cmos inverter schematic](#creating-CMOS-Inverter-schematic)
            * [Pre-layout DC Analysis](#pre-layout-dc-analysis)
            * [Pre-layout Transient Analysis](#pre-layout-transient-analysis)
            * [Pre-layout generated netlist](#Pre-layout-generated-netlist)
@@ -23,6 +23,6 @@ One of the primary advantages of CMOS inverters is their low power consumption, 
 
 
 <a name="creating-cmos-inverter-schematic"></a>
-## Creating cmos inverter schematic
+## Creating cCMOS Inverter schematic
 
 
