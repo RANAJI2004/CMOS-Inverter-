@@ -23,6 +23,6 @@ One of the primary advantages of CMOS inverters is their low power consumption, 
 
 
 <a name="creating-cmos-inverter-schematic"></a>
-## Creating cCMOS Inverter schematic
+## Creating CMOS Inverter schematic
 
 
