@@ -29,9 +29,9 @@ First Create a Library
 
 <img width="400" alt="create library" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Photo%201.jpg">
 
-Now  create a cellview for design and gave the design name , the schematic i created is shown in the figure
+Now  create a cellview for design and give the design name , the schematic i created is shown in the figure
 
-<img width="922" alt="schematic" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Schematic.jpg">
+<img width="700" alt="schematic" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Schematic.jpg">
 
 After creating the schematic , the symbol of the schematic is made 
 
@@ -43,9 +43,17 @@ After creating the schematic , the symbol of the schematic is made
 ### Pre-layout DC Analysis
 DC analysis is used to generate the Voltage Transfer Characteristics (VTC) curve of the circuit. This involves sweeping Vin across a range of values, from high to low, to observe how the circuit responds at different input voltage levels. 
 
-So to perform DC analysis we have to first make a ##testbench or ##simulation setup on which we will give inputs and measure outputs
+So to perform DC analysis we have to first make a *testbench* or *simulation* setup on which we will give inputs and measure outputs
 
 <img width="700" alt="testbench" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/inverter%20testbench.jpg">
+
+The Vin is the vpulse with V1=OV , V2=1.8V , Period =20ns , Delay time =0ns , Fall time =1ns and Pulse width =10ns
+Vdc is 1.8V
+To perform DC analysis we have to go to *Launch*->*ADE L*->*dc* in dc check save operating point and select component parameter as vpulse to do the dc sweep
+The DC output comes out to be as shown in below figure
+
+<img width="700" alt="dc response" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/DC%20response.jpg">
+
 
 
 
