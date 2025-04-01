@@ -25,7 +25,32 @@ One of the primary advantages of CMOS inverters is their low power consumption, 
 <a name="creating-cmos-inverter-schematic"></a>
 ## Creating CMOS Inverter schematic
 
-First create a library (in my project library name is saksham) 
-<img width="922" alt="create library" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Photo%201.jpg">
+First Create a Library
+
+<img width="400" alt="create library" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Photo%201.jpg">
+
+Now  create a cellview for design and gave the design name , the schematic i created is shown in the figure
+
+<img width="922" alt="schematic" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Schematic.jpg">
+
+After creating the schematic , the symbol of the schematic is made 
+
+<img width="700" alt="symbol" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/symbol%20view.jpg">
+
+
+
+<a name="pre-layout-dc-analysis"></a>
+### Pre-layout DC Analysis
+DC analysis is used to generate the Voltage Transfer Characteristics (VTC) curve of the circuit. This involves sweeping Vin across a range of values, from high to low, to observe how the circuit responds at different input voltage levels. 
+
+So to perform DC analysis we have to first make a ##testbench or ##simulation setup on which we will give inputs and measure outputs
+
+<img width="700" alt="testbench" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/inverter%20testbench.jpg">
+
+
+
+
+
+
 
 
