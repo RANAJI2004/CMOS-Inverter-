@@ -26,5 +26,6 @@ One of the primary advantages of CMOS inverters is their low power consumption, 
 ## Creating CMOS Inverter schematic
 
 First create a library (in my project library name is saksham) 
+<img width="922" alt="create library" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Photo%201.jpg">
 
 
