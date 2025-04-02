@@ -60,7 +60,7 @@ The Vin is the vpulse with following parameter
 
 <img width="500" alt="vpulse for transient" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/vpulse%20for%20transient.png">
 
- To perform transient analysis we have to go to *Launch* -> *ADE L* ->*trans* , the output of the transient response comes out to be 
+ To perform transient analysis we have to go to *Launch* -> *ADE L* ->*trans* ,we are performing transient analysis for 200ns, the output of the transient response comes out to be 
  
  <img width="700" alt="transient response" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/transient%20analysis.png">
 
@@ -304,7 +304,13 @@ designParamVals: writing netlist parameters to rawfile.
 primitives: writing primitives to rawfile.
 subckts: writing subcircuits to rawfile.
 ```
+
+### Post-layout analysis of CMOS Inverter
+
+ Make a new cell with name inverter and type layout then go to *connectivity*-> *generate* -> *all from source* then move the components into the design area ,
+ the layout generated is shown in the figure 
  
+ <img width="700" alt="layout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/layout.jpg">
 
 
 
