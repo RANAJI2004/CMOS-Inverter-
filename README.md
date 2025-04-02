@@ -57,9 +57,12 @@ The DC output comes out to be as shown in below figure
 ### Pre-layout Transient Analysis
 Transient analysis examines the time-dependent behavior of a CMOS inverter when subjected to a dynamic input signal. It helps in understanding how the output voltage transitions between logic levels and how long it takes for these transitions to occur. This analysis is essential for evaluating key performance metrics such as propagation delay, rise time, and fall time, which impact the overall speed and efficiency of digital circuits.
 The Vin is the vpulse with following parameter 
+
 <img width="500" alt="vpulse for transient" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/vpulse%20for%20transient.png">
+
  To perform transient analysis we have to go to *Launch* -> *ADE L* ->*trans* , the output of the transient response comes out to be 
- <img width="500" alt="transient response" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/transient%20analysis.png">
+ 
+ <img width="700" alt="transient response" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/transient%20analysis.png">
  
 
 
