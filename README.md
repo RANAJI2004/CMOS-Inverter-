@@ -312,6 +312,26 @@ subckts: writing subcircuits to rawfile.
  
  <img width="700" alt="layout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/layout.jpg">
 
+ Now we will perform the LVS check to ensure that the layout correctly represents the schematic , to perform LVS go to *Assura*->*Run LVS*
+ 
+   <img width="500" alt="Assura" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Assura.png">
+
+   The result of LVS check is
+   
+   <img width="700" alt="LVS check" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/LVS%20result.png">
+
+ To perform the Post-layout analysis first we have to generate the extracted view of the layout that includes both circuit connectivity and parasitic components (such as parasitic resistances and capacitances) extracted from the physical layout. It is used for post-layout simulations to ensure that the real-world implementation behaves as expected.
+ To generate extracted view go to *Assura*->*Run RCX*
+
+  <img width="700" alt="Extracted view" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/extracted%20view.png">
+
+The DC response comes out to be 
+
+ <img width="700" alt="Dc response post layout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/dc%20response%20post%20layout.png">
+
+The transient response comes out to be 
+ <img width="700" alt="transient response post layout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/post%20layout%20transient.png">
+
 
 
 
