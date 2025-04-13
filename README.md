@@ -45,7 +45,7 @@ DC analysis is used to generate the Voltage Transfer Characteristics (VTC) curve
 
 So to perform DC analysis we have to first make a *testbench* or *simulation* setup on which we will give inputs and measure outputs
 
-<img width="700" alt="testbench" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/inverter%20testbench.jpg">
+<img width="700" alt="testbench" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/testbench.png">
 
 The Vin is the vpulse with V1=OV , V2=1.8V , Period =20ns , Delay time =0ns , Fall time =1ns and Pulse width =10ns
 Vdc is 1.8V
