@@ -95,22 +95,22 @@ Protected by U.S. Patents:
 
 Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
 
-User: buet   Host: cadence   HostID: 7F0100   PID: 3513
-Memory  available: 678.1501 MB  physical: 1.6003 GB
+User: buet   Host: cadence   HostID: 7F0100   PID: 3686
+Memory  available: 619.1145 MB  physical: 1.6003 GB
 CPU Type: 13th Gen Intel(R) Core(TM) i5-13450HX
           Processor PhysicalID CoreID Frequency
               0         -        -     2611.2
               1         -        -     2611.2
 
 
-Simulating `input.scs' on cadence at 9:33:37 PM, Wed Apr 2, 2025 (process id: 3513).
+Simulating `input.scs' on cadence at 6:53:25 PM, Sun Apr 13, 2025 (process id: 3686).
 Current working directory: /home/buet/simulation/inverter_tb/spectre/schematic/netlist.
 Command line:
     /home/buet/cadence/MMSIM121/tools.lnx86/spectre/bin/32bit/spectre  \
         input.scs +escchars +log ../psf/spectre.out +inter=mpsc  \
-        +mpssession=spectre1_3222_1 -format psfxl -raw ../psf  \
+        +mpssession=spectre2_3255_3 -format psfxl -raw ../psf  \
         +lqtimeout 900 -maxw 5 -maxn 5
-spectre pid = 3513
+spectre pid = 3686
 
 Loading /home/buet/cadence/MMSIM121/tools.lnx86/cmi/lib/5.0/libinfineon_sh.so ...
 Loading /home/buet/cadence/MMSIM121/tools.lnx86/cmi/lib/5.0/libphilips_o_sh.so ...
@@ -132,19 +132,19 @@ Reading file:  /home/buet/cadence/gpdk090_v4.6/models/spectre/gpdk090_capacitor.
 Reading file:  /home/buet/cadence/gpdk090_v4.6/models/spectre/gpdk090_diode.scs
 Reading file:  /home/buet/cadence/gpdk090_v4.6/models/spectre/gpdk090_bipolar.scs
 
-Time for NDB Parsing: CPU = 401.938 ms, elapsed = 420.719 ms.
-Time accumulated: CPU = 401.938 ms, elapsed = 420.719 ms.
-Peak resident memory used = 32.3 Mbytes.
+Time for NDB Parsing: CPU = 316.951 ms, elapsed = 313.651 ms.
+Time accumulated: CPU = 316.951 ms, elapsed = 313.651 ms.
+Peak resident memory used = 32.2 Mbytes.
 
 
-Time for Elaboration: CPU = 14.998 ms, elapsed = 15.682 ms.
-Time accumulated: CPU = 416.936 ms, elapsed = 436.532 ms.
+Time for Elaboration: CPU = 7.999 ms, elapsed = 8.61096 ms.
+Time accumulated: CPU = 324.95 ms, elapsed = 322.456 ms.
 Peak resident memory used = 34.7 Mbytes.
 
 
-Time for EDB Visiting: CPU = 1 ms, elapsed = 2.72393 ms.
-Time accumulated: CPU = 417.936 ms, elapsed = 439.401 ms.
-Peak resident memory used = 35 Mbytes.
+Time for EDB Visiting: CPU = 0 s, elapsed = 288.963 us.
+Time accumulated: CPU = 325.949 ms, elapsed = 322.99 ms.
+Peak resident memory used = 35.1 Mbytes.
 
 
 Warning from spectre during initial setup.
@@ -154,6 +154,7 @@ Warning from spectre during initial setup.
 Circuit inventory:
               nodes 3
             bsim3v3 2     
+          capacitor 1     
             vsource 2     
 
 
@@ -161,11 +162,11 @@ Warning from spectre during initial setup.
     WARNING (CMI-2477): I10.PM0: `Rds' = 70.9091 uOhm is less than 0.001. Set to 0.
 
 
-Time for parsing: CPU = 2.999 ms, elapsed = 6.73699 ms.
-Time accumulated: CPU = 420.935 ms, elapsed = 446.286 ms.
+Time for parsing: CPU = 1 ms, elapsed = 2.40397 ms.
+Time accumulated: CPU = 326.949 ms, elapsed = 325.582 ms.
 Peak resident memory used = 35.8 Mbytes.
 
-Entering remote command mode using MPSC service (spectre, ipi, v0.0, spectre1_3222_1, ).
+Entering remote command mode using MPSC service (spectre, ipi, v0.0, spectre2_3255_3, ).
 
 Warning from spectre.
     WARNING (SPECTRE-16707): Only tran supports psfxl format, result of other analyses will be in psfbin format.
@@ -174,7 +175,7 @@ Warning from spectre.
 *************************************************
 Transient Analysis `tran': time = (0 s -> 200 ns)
 *************************************************
-DC simulation time: CPU = 1 ms, elapsed = 3.0539 ms.
+DC simulation time: CPU = 0 s, elapsed = 187.159 us.
 Important parameter values:
     start = 0 s
     outputstart = 0 s
@@ -197,37 +198,37 @@ Important parameter values:
     cmin = 0 F
     gmin = 1 pS
 
-    tran: time = 5.608 ns     (2.8 %), step = 2.291 ns     (1.15 %)
-    tran: time = 16.28 ns    (8.14 %), step = 1.994 ns     (997 m%)
-    tran: time = 26.25 ns    (13.1 %), step = 2.613 ns     (1.31 %)
-    tran: time = 36.82 ns    (18.4 %), step = 2.244 ns     (1.12 %)
-    tran: time = 46.6 ns     (23.3 %), step = 2.786 ns     (1.39 %)
-    tran: time = 57.08 ns    (28.5 %), step = 2.361 ns     (1.18 %)
-    tran: time = 65.74 ns    (32.9 %), step = 2.359 ns     (1.18 %)
-    tran: time = 75.88 ns    (37.9 %), step = 1.805 ns     (902 m%)
-    tran: time = 87.03 ns    (43.5 %), step = 3.003 ns      (1.5 %)
-    tran: time = 96.23 ns    (48.1 %), step = 1.944 ns     (972 m%)
-    tran: time = 107 ns      (53.5 %), step = 2.99 ns       (1.5 %)
-    tran: time = 116.1 ns    (58.1 %), step = 1.913 ns     (956 m%)
-    tran: time = 127 ns      (63.5 %), step = 2.995 ns      (1.5 %)
-    tran: time = 136.1 ns    (68.1 %), step = 1.904 ns     (952 m%)
-    tran: time = 147 ns      (73.5 %), step = 2.996 ns      (1.5 %)
-    tran: time = 156.1 ns    (78.1 %), step = 1.902 ns     (951 m%)
-    tran: time = 167 ns      (83.5 %), step = 2.996 ns      (1.5 %)
-    tran: time = 176.1 ns    (88.1 %), step = 1.901 ns     (950 m%)
-    tran: time = 187 ns      (93.5 %), step = 2.996 ns      (1.5 %)
-    tran: time = 196.1 ns    (98.1 %), step = 1.9 ns       (950 m%)
-Number of accepted tran steps =             605
+    tran: time = 8.33 ns     (4.17 %), step = 3.655 ns     (1.83 %)
+    tran: time = 16.62 ns    (8.31 %), step = 2.127 ns     (1.06 %)
+    tran: time = 27.53 ns    (13.8 %), step = 3.254 ns     (1.63 %)
+    tran: time = 36.88 ns    (18.4 %), step = 2.261 ns     (1.13 %)
+    tran: time = 47.35 ns    (23.7 %), step = 3.163 ns     (1.58 %)
+    tran: time = 56.97 ns    (28.5 %), step = 2.303 ns     (1.15 %)
+    tran: time = 67.25 ns    (33.6 %), step = 3.114 ns     (1.56 %)
+    tran: time = 77.03 ns    (38.5 %), step = 2.333 ns     (1.17 %)
+    tran: time = 87.16 ns    (43.6 %), step = 3.07 ns      (1.53 %)
+    tran: time = 97.09 ns    (48.5 %), step = 2.365 ns     (1.18 %)
+    tran: time = 107.4 ns    (53.7 %), step = 3.207 ns      (1.6 %)
+    tran: time = 116.9 ns    (58.5 %), step = 2.286 ns     (1.14 %)
+    tran: time = 127.3 ns    (63.6 %), step = 3.136 ns     (1.57 %)
+    tran: time = 137 ns      (68.5 %), step = 2.327 ns     (1.16 %)
+    tran: time = 147.2 ns    (73.6 %), step = 3.08 ns      (1.54 %)
+    tran: time = 157 ns      (78.5 %), step = 2.343 ns     (1.17 %)
+    tran: time = 167.1 ns    (83.6 %), step = 3.054 ns     (1.53 %)
+    tran: time = 177.1 ns    (88.5 %), step = 2.368 ns     (1.18 %)
+    tran: time = 187.4 ns    (93.7 %), step = 3.201 ns      (1.6 %)
+    tran: time = 196.9 ns    (98.5 %), step = 2.289 ns     (1.14 %)
+Number of accepted tran steps =             522
 
 Notice from spectre during transient analysis `tran'.
     Trapezoidal ringing is detected during tran analysis.
         Please use method=trap for better results and performance.
 
-Initial condition solution time: CPU = 1 ms, elapsed = 3.08394 ms.
-Intrinsic tran analysis time:    CPU = 12.998 ms, elapsed = 30.8452 ms.
-Total time required for tran analysis `tran': CPU = 14.998 ms, elapsed = 35.3529 ms.
-Time accumulated: CPU = 437.932 ms, elapsed = 1.63265 s.
-Peak resident memory used = 37.2 Mbytes.
+Initial condition solution time: CPU = 0 s, elapsed = 208.855 us.
+Intrinsic tran analysis time:    CPU = 110.983 ms, elapsed = 120.538 ms.
+Total time required for tran analysis `tran': CPU = 110.983 ms, elapsed = 121.51 ms.
+Time accumulated: CPU = 439.932 ms, elapsed = 478.203 ms.
+Peak resident memory used = 37.3 Mbytes.
 
 finalTimeOP: writing operating point information to rawfile.
 
@@ -243,8 +244,8 @@ Important parameter values:
     tempeffects = all
     gmindc = 1 pS
 Convergence achieved in 6 iterations.
-Total time required for dc analysis `dcOp': CPU = 1 ms, elapsed = 1.62983 ms.
-Time accumulated: CPU = 441.932 ms, elapsed = 1.65642 s.
+Total time required for dc analysis `dcOp': CPU = 1 ms, elapsed = 1.37901 ms.
+Time accumulated: CPU = 443.932 ms, elapsed = 492.113 ms.
 Peak resident memory used = 37.4 Mbytes.
 
 dcOpInfo: writing operating point information to rawfile.
@@ -309,8 +310,8 @@ Important parameter values:
     dc: dc = 1.728 V       (96 %), step = 36 mV           (2 %)
     dc: dc = 1.764 V       (98 %), step = 36 mV           (2 %)
     dc: dc = 1.8 V        (100 %), step = 36 mV           (2 %)
-Total time required for dc analysis `dc': CPU = 3 ms, elapsed = 3.88288 ms.
-Time accumulated: CPU = 446.931 ms, elapsed = 1.66382 s.
+Total time required for dc analysis `dc': CPU = 2.999 ms, elapsed = 5.19109 ms.
+Time accumulated: CPU = 449.93 ms, elapsed = 501.581 ms.
 Peak resident memory used = 37.5 Mbytes.
 
 modelParameter: writing model parameter values to rawfile.
