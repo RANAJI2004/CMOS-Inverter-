@@ -359,7 +359,19 @@ subckts: writing subcircuits to rawfile.
 
 The DC response comes out to be 
 
- <img width="700" alt="Dc response post layout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/dc%20response%20post%20layout.png">
+ <img width="700" alt="Dc response post layout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/DC%20post%20layout.png">
+
+ Vol=87.47uV
+
+ Voh=1.798V
+
+ ### d(vout) vs Vin 
+
+  <img width="700" alt="Dc response post layout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/d(vout)%20post_layout.png">
+
+  Vih =880.181mV
+
+  Vil =416.291mV
 
 
 The transient response comes out to be 
