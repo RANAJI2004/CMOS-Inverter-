@@ -376,7 +376,8 @@ The DC response comes out to be
 
 The transient response comes out to be 
  
- <img width="700" alt="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/post%20layout%20transient.png">
+
+  <img width="700" alt="Dc response post layout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/transient%20post_layout.png">
 
 
 
