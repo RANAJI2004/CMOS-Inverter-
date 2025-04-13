@@ -52,7 +52,10 @@ Vdc is 1.8V
 To perform DC analysis we have to go to *Launch*->*ADE L*->*dc* in dc check save operating point and select component parameter as vpulse to do the dc sweep
 The DC output comes out to be as shown in below figure
 
-<img width="700" alt="dc response" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/DC%20response.jpg">
+<img width="700" alt="dc response" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Vol%2CVoh%2CVth.png">
+
+Vol(output low voltage)=86.5uV
+Voh(output high voltage) =1.798V
 
 ### Pre-layout Transient Analysis
 Transient analysis examines the time-dependent behavior of a CMOS inverter when subjected to a dynamic input signal. It helps in understanding how the output voltage transitions between logic levels and how long it takes for these transitions to occur. This analysis is essential for evaluating key performance metrics such as propagation delay, rise time, and fall time, which impact the overall speed and efficiency of digital circuits.
@@ -64,6 +67,13 @@ The Vin is the vpulse with following parameter
  
  <img width="700" alt="transient response" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/transient%20analysis.png">
 
+### Finding out Tphl , Tplh and Tp (Propagation delay)
+
+<img width="300" alt="Propagation delay" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Thl.png"> <img width="300" alt="Propagation delay" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Tlh.png">
+
+Tphl = (120.531-120.499)ns = 32 ps
+Tplh = (11.804-11.4992)ns = 304ps
+Tp=(Tphl+Tplh)/2 = 168 ps
  ### Pre-layout generated netlist
  ```
 Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
