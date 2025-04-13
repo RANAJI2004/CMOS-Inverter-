@@ -404,8 +404,8 @@ Tp=(Tphl+Tplh)/2=169.85ps
 
 <img width="700" alt="Tplh postlayout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/power%20dissipation.png">
 
-The horizontal lines denotes the static power dissipation which is nano watts.
-The vertical spikes denotes dynamic power dissipation which is micro watts.
+The horizontal lines denotes the static power dissipation which is in nano watts.
+The vertical spikes denotes dynamic power dissipation which is in micro watts.
 
   
 
