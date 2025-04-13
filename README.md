@@ -58,6 +58,21 @@ Vol(output low voltage)=86.5uV
 
 Voh(output high voltage) =1.798V
 
+### d(vout) vs Vin 
+<img width="700" alt="dc response" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Vih%20%2CVil.png">
+
+Vil=403.2mV 
+
+Vih=884.71mV
+
+### Noise Margin Calculation
+
+NM(L)=Vil-Vol = 403.2mV-86.5uV =0.403V
+
+NM(H) =Voh-Vih = 1.798V-884.71mV=0.9329V
+
+
+
 ### Pre-layout Transient Analysis
 Transient analysis examines the time-dependent behavior of a CMOS inverter when subjected to a dynamic input signal. It helps in understanding how the output voltage transitions between logic levels and how long it takes for these transitions to occur. This analysis is essential for evaluating key performance metrics such as propagation delay, rise time, and fall time, which impact the overall speed and efficiency of digital circuits.
 The Vin is the vpulse with following parameter 
