@@ -389,9 +389,9 @@ The DC response comes out to be
 ### Finding out Tphl , Tplh and Tp (Propagation delay)
 
 
-<img width="700" alt="Dc response post layout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Tphl%20post_layout.pngg">
+<img width="700" alt="Tphl postlayout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Tphl%20post_layout.png">
 
-<img width="700" alt="Dc response post layout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Thl%20post_layout.png">
+<img width="700" alt="Tplh postlayout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Thl%20post_layout.png">
 
 Tphl= 40.533ns-40.500ns= 33ps
 
