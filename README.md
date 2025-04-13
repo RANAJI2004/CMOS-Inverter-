@@ -367,17 +367,41 @@ The DC response comes out to be
 
  ### d(vout) vs Vin 
 
-  <img width="700" alt="Dc response post layout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/d(vout)%20post_layout.png">
+  <img width="700" alt="d(vout) post layout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/d(vout)%20post_layout.png">
 
   Vih =880.181mV
 
   Vil =416.291mV
+### Noise Margin Calculation
 
+ NM(L)= Vil-Vol =416.291mV-87.47uv=0.4162V
 
-The transient response comes out to be 
+ NM(H)= Voh-Vih =1.798V-880.181mV =0.9178V
+ 
+ 
+### The transient response comes out to be 
  
 
-  <img width="700" alt="Dc response post layout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/transient%20post_layout.png">
+  <img width="700" alt="Transient postlayout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/transient%20post_layout.png">
+
+
+
+### Finding out Tphl , Tplh and Tp (Propagation delay)
+
+
+<img width="700" alt="Dc response post layout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Tphl%20post_layout.pngg">
+
+<img width="700" alt="Dc response post layout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Thl%20post_layout.png">
+
+Tphl= 40.533ns-40.500ns= 33ps
+
+Tplh=11.8087ns-11.5026ns=306.7ps
+
+Tp=(Tphl+Tplh)/2=169.85ps
+
+
+
+  
 
 
 
