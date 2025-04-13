@@ -55,6 +55,7 @@ The DC output comes out to be as shown in below figure
 <img width="700" alt="dc response" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Vol%2CVoh%2CVth.png">
 
 Vol(output low voltage)=86.5uV
+
 Voh(output high voltage) =1.798V
 
 ### Pre-layout Transient Analysis
@@ -69,11 +70,14 @@ The Vin is the vpulse with following parameter
 
 ### Finding out Tphl , Tplh and Tp (Propagation delay)
 
-<img width="300" alt="Propagation delay" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Thl.png"> <img width="300" alt="Propagation delay" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Tlh.png">
+<img width="450" alt="Propagation delay" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Thl.png">   <img width="450" alt="Propagation delay" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Tlh.png">
 
-Tphl = (120.531-120.499)ns = 32 ps
+Tphl = (120.531-120.499)ns = 32 ps 
+
 Tplh = (11.804-11.4992)ns = 304ps
+
 Tp=(Tphl+Tplh)/2 = 168 ps
+
  ### Pre-layout generated netlist
  ```
 Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
