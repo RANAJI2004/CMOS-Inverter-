@@ -70,7 +70,9 @@ The Vin is the vpulse with following parameter
 
 ### Finding out Tphl , Tplh and Tp (Propagation delay)
 
-<img width="450" alt="Propagation delay" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Thl.png">   <img width="450" alt="Propagation delay" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Tlh.png">
+<img width="500" alt="Propagation delay" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Thl.png">
+
+<img width="500" alt="Propagation delay" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Tlh.png">
 
 Tphl = (120.531-120.499)ns = 32 ps 
 
