@@ -402,14 +402,15 @@ Tp=(Tphl+Tplh)/2=169.85ps
 
 # Power Dissipation
 
-<img width="700" alt="Tplh postlayout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/power%20dissipation.png">
+<img width="700" alt="Powerdissipation" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/power_dissipation.png">
 
 The horizontal lines denotes the static power dissipation which is in nano watts.
 The vertical spikes denotes dynamic power dissipation which is in micro watts.
 
   
+Average Static power disspation = (4.03 + 481.99) nW/ 2 = 243.01 nW
 
-
+Average Dynamic power dissipation = (79.62 + 94.75) / 2 = 87.185 μW
 
 
 
