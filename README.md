@@ -6,11 +6,12 @@ Design and analysis of a CMOS inverter using the GPDK 90nm technology in Cadence
            * [Pre-layout DC Analysis](#pre-layout-dc-analysis)
            * [Pre-layout Transient Analysis](#pre-layout-transient-analysis)
            * [Pre-layout generated netlist](#Pre-layout-generated-netlist)
+           * [Power Dissipation](#power-dissipation)
        * [Post-layout analysis of CMOS Inverter](#Post-layout-analysis-of-CMOS-Inverter)
            * [Post-layout DC Analysis](#post-layout-dc-analysis)
-           * [Post-layout Transient Analysis](#post-layout-transient-analysis)
-           *  [Generated post-layout netlist](#generated-post-layout-netlist)
+           * [Post-layout Transient Analysis](#post-layout-transient-analysis) 
        * [Layout vs Schematic report](#layout-vs-schematic-report)
+       * [Power Dissipation](#power-dissipation)
        * [Pre vs Post layout Simulation Report](#Pre-vs-Post-layout-simulation-Report)
 
    <a name="cmos-inverter"></a>
@@ -40,7 +41,9 @@ After creating the schematic , the symbol of the schematic is made
 
 
 
-<a name="pre-layout-dc-analysis"></a>
+
+## Post-layout analysis of CMOS Inverter
+
 ### Pre-layout DC Analysis
 DC analysis is used to generate the Voltage Transfer Characteristics (VTC) curve of the circuit. This involves sweeping Vin across a range of values, from high to low, to observe how the circuit responds at different input voltage levels. 
 
@@ -96,7 +99,7 @@ Tplh = (11.804-11.4992)ns = 304ps
 
 Tp=(Tphl+Tplh)/2 = 168 ps
 
- ### Pre-layout generated netlist
+ ## Pre-layout generated netlist
  ```
 Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
 Version 12.1.0.347.isr3 32bit -- 10 Jan 2013
@@ -337,6 +340,15 @@ designParamVals: writing netlist parameters to rawfile.
 primitives: writing primitives to rawfile.
 subckts: writing subcircuits to rawfile.
 ```
+## Power Dissipation
+
+ <img width="700" alt="layout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/preLayout%20power.png">
+
+ 
+Average Static power disspation = (4.03 + 482) nW/ 2 = 243.015 nW
+
+Average Dynamic power dissipation = (79.1 + 93.72) / 2 = 86.41 μW
+
 
 ### Post-layout analysis of CMOS Inverter
 
@@ -403,7 +415,7 @@ Tplh=11.8087ns-11.5026ns=306.7ps
 Tp=(Tphl+Tplh)/2=169.85ps
 
 
-# Power Dissipation
+## Power Dissipation
 
 <img width="700" alt="Powerdissipation" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/power_dissipation.png">
 
@@ -415,7 +427,14 @@ Average Static power disspation = (4.03 + 481.99) nW/ 2 = 243.01 nW
 
 Average Dynamic power dissipation = (79.62 + 94.75) / 2 = 87.185 μW
 
-### Pre vs Post layout Simulation Report
+## Pre vs Post layout Simulation Report
+
+| Metric                      | Pre-Layout | Post-Layout | Observation                                |
+|----------------------------|------------|-------------|--------------------------------------------|
+| Propagation Delay (tpd)    | 168 ps     | 169.85 ps   | Increased due to RC parasitics             |
+| Power Consumption          |  86.41nW   | 87.185 nW   | Slight increase due to layout parasitics   |
+                                            (dynamic)
+
 
 
 
