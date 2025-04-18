@@ -344,6 +344,8 @@ subckts: writing subcircuits to rawfile.
  
  <img width="700" alt="layout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/layout.jpg">
 
+### Layout vs Schematic report
+
  Now we will perform the LVS check to ensure that the layout correctly represents the schematic , to perform LVS go to *Assura*->*Run LVS*
  
    <img width="500" alt="Assura" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Assura.png">
