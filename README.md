@@ -432,7 +432,7 @@ Average Dynamic power dissipation = (79.62 + 94.75) / 2 = 87.185 μW
 | Metric                      | Pre-Layout | Post-Layout | Observation                                |
 |----------------------------|------------|-------------|--------------------------------------------|
 | Propagation Delay (tpd)    | 168 ps     | 169.85 ps   | Increased due to RC parasitics             |
-| Power Consumption          |  86.41nW   | 87.185 nW   | Slight increase due to layout parasitics   |
+| Power Consumption(dynamic) |  86.41nW   | 87.185 nW   | Slight increase due to layout parasitics   |
                                             (dynamic)
 
 
