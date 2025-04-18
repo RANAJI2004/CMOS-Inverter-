@@ -11,6 +11,7 @@ Design and analysis of a CMOS inverter using the GPDK 90nm technology in Cadence
            * [Post-layout Transient Analysis](#post-layout-transient-analysis)
            *  [Generated post-layout netlist](#generated-post-layout-netlist)
        * [Layout vs Schematic report](#layout-vs-schematic-report)
+       * [Pre vs Post layout Simulation Report](#Pre-vs-Post-layout-simulation-Report)
 
    <a name="cmos-inverter"></a>
  ## CMOS INVERTER
@@ -413,6 +414,8 @@ The vertical spikes denotes dynamic power dissipation which is in micro watts.
 Average Static power disspation = (4.03 + 481.99) nW/ 2 = 243.01 nW
 
 Average Dynamic power dissipation = (79.62 + 94.75) / 2 = 87.185 μW
+
+### Pre vs Post layout Simulation Report
 
 
 
