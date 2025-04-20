@@ -94,7 +94,7 @@ The Vin is the vpulse with following parameter
 
  <img src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Thl.png?raw=true" width="800" height="auto" alt="propagation delay">
  
-<img width="500" alt="Propagation delay" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Tlh.png">
+<img src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Thl.png?raw=true" width="800" height="auto" alt="propagation delay">
 
 Tphl = (120.531-120.499)ns = 32 ps 
 
