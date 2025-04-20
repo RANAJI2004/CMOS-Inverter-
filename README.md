@@ -402,7 +402,7 @@ The DC response comes out to be
 ### The transient response comes out to be 
  
 
-  <img width="700" alt="Transient postlayout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/transient%20post_layout.png">
+ <img src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/postlayout%20trans.png?raw=true" width="800" height="auto" alt="transient response">
 
 
 
