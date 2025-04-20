@@ -347,7 +347,7 @@ subckts: writing subcircuits to rawfile.
  <img width="700" alt="layout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/preLayout%20power.png">
 
  
-Average Static power disspation = (4.03 + 482) nW/ 2 = 243.015 nW
+Average Static power dissipation = (4.03 + 482) nW/ 2 = 243.015 nW
 
 Average Dynamic power dissipation = (79.1 + 93.72) / 2 = 86.41 μW
 
@@ -427,7 +427,7 @@ The horizontal lines denotes the static power dissipation which is in nano watts
 The vertical spikes denotes dynamic power dissipation which is in micro watts.
 
   
-Average Static power disspation = (4.03 + 481.99) nW/ 2 = 243.01 nW
+Average Static power dissipation = (4.03 + 481.99) nW/ 2 = 243.01 nW
 
 Average Dynamic power dissipation = (79.62 + 94.75) / 2 = 87.185 μW
 
