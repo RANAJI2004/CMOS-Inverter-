@@ -86,8 +86,8 @@ The Vin is the vpulse with following parameter
 <img width="500" alt="vpulse for transient" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/vpulse%20for%20transient.png">
 
  To perform transient analysis we have to go to *Launch* -> *ADE L* ->*trans* ,we are performing transient analysis for 200ns, the output of the transient response comes out to be 
- 
- <img width="700" alt="transient response" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/transient%20analysis.png">
+ <img src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/prelayout%20trans.png?raw=true" width="800" height="auto" alt="transient response">
+
 
 ### Finding out Tphl , Tplh and Tp (Propagation delay)
 
