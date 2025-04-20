@@ -58,6 +58,8 @@ The DC output comes out to be as shown in below figure
 
 <img width="700" alt="dc response" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Vol%2CVoh%2CVth.png">
 
+Vth(Threshold Voltage)=0.702V
+
 Vol(output low voltage)=86.5uV
 
 Voh(output high voltage) =1.798V
@@ -375,6 +377,8 @@ Average Dynamic power dissipation = (79.1 + 93.72) / 2 = 86.41 μW
 The DC response comes out to be 
 
  <img width="700" alt="Dc response post layout" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/DC%20post%20layout.png">
+
+ Vth(Threshold Voltage)=0.704V
 
  Vol=87.47uV
 
