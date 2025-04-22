@@ -42,7 +42,7 @@ After creating the schematic , the symbol of the schematic is made
 
 
 
-## Post-layout analysis of CMOS Inverter
+## Pre-layout analysis of CMOS Inverter
 
 ### Pre-layout DC Analysis
 DC analysis is used to generate the Voltage Transfer Characteristics (VTC) curve of the circuit. This involves sweeping Vin across a range of values, from high to low, to observe how the circuit responds at different input voltage levels. 
