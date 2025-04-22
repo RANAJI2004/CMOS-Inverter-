@@ -33,7 +33,7 @@ First Create a Library
 
 Now  create a cellview for design and give the design name , the schematic i created is shown in the figure
 
-<img width="700" alt="schematic" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Schematic.jpg">
+<img width="700" alt="schematic" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/schematics.png">
 
 After creating the schematic , the symbol of the schematic is made 
 
