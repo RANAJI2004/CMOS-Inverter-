@@ -29,7 +29,7 @@ One of the primary advantages of CMOS inverters is their low power consumption, 
 
 First Create a Library
 
-<img width="400" alt="create library" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/Photo%201.jpg">
+<img width="400" alt="create library" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/photo%201.png">
 
 Now  create a cellview for design and give the design name , the schematic i created is shown in the figure
 
