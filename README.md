@@ -51,7 +51,7 @@ So to perform DC analysis we have to first make a *testbench* or *simulation* se
 
 <img width="700" alt="testbench" src="https://github.com/RANAJI2004/CMOS-Inverter-/blob/main/testbench.png">
 
-The Vin is the vpulse with V1=0V , V2=1.8V , Period =20ns , Delay time =0ns , Fall time =1ns and Pulse width =10ns
+The Vin is the vpulse with V1=0V , V2=1.8V , Period =20ns , Delay time =0ns , Fall time =1ns , Rise time=1ns  and Pulse width =10ns
 Vdc is 1.8V
 To perform DC analysis we have to go to *Launch*->*ADE L*->*dc* in dc check save operating point and select component parameter as vpulse to do the dc sweep
 The DC output comes out to be as shown in below figure
